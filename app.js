@@ -1,39 +1,21 @@
-let lang = "es"
+let urlGit = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
 let url = "http://localhost:5000/castellano"
 
-const getDataSpanish = async () => {
-  try {
-    let option = {
-      method: "GET",
-      headers:{"Content-type": "application/json"}
-  }
-  const res = await fetch(url,option)
-    if(!res.ok){
-      console.log(res)
-      const dataError = {
-        status: res.status || "00",
-        statusText: res.statusText || "Error indefinido"
-      }
-      throw dataError
-    }else{
-      const data = await res.json();
-      console.log(data)
-      inicio(data) 
-    }
-  }catch(err){
-    console.log("Error: ",err)
-  }
+const getData = (section) => {
+  fetch(urlGit)
+  .then(res => res.json())
+  .then(data => {
+    console.log(data[section])    
+    inicio(data[section])
+  })
 }
-document.addEventListener("DOMContentLoaded",getDataSpanish);
+document.addEventListener("DOMContentLoaded",getData("castellano"));
 
 const idioma = (e) => {
-
-  if(e.dataset.idioma === "arg"){
-    url = "http://localhost:5000/castellano"
-    getDataSpanish()
-  }else{
-    url = "http://localhost:5000/ingles"
-    getDataSpanish()
+  if(e.dataset.idioma === "arg"){    
+    getData("castellano")
+  }else{    
+    getData("ingles")
   }
 }
  
