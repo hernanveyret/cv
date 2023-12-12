@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+.flags {
+  max-width: 100vx;
+  height: 20px;
+  background: linear-gradient(rgb(0, 102, 255),#014E82);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+button {
+  width: 20px;
+  margin: 0 5px 0 0;
+  background: transparent;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+button img {
+  width: 100%;
+}
+header {
+  background-color: #026EAF;
+  max-width: 100vx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nombre {
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+}
+.foto {
+  width: 35%;
+  height: auto;
+  margin: 10px 0 0 0;
+}
+.foto img {
+  width:100%;
+  border: 5px solid white;
+}
+main {
+  max-width: 100%;
+  height: 300px;
+  background-color: #002E52;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dtPersonales {
+  width: 90%;
+  height: auto;
+  border-radius: 0.75rem;
+  background: linear-gradient(rgb(0, 102, 255),#014E82);
+  margin-top: 5px;
+}
+.titulo {
+  text-align: center;
+}
+.contenido {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: .9rem;
+}
+span {
+  display: flex;
+  align-items: center;
+}
+span img {
+  width: 8%;
+  margin: 0 5px 0 -5px;
+}
+.redes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.icoRedes img {
+  width: 55%;
+}
+a {
+  margin-right: -10px;
+}
+
+@media screen and (min-width:500px) {
+  header {    
+    flex-direction: row;
+  }
+  .foto {
+    width: 20%;
+    margin: 10px;
+  }
+  .nombre {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "castellano": [
+    { 
+      "datosPersonales":
+        {
+          "id":1,
+          "titulo":"Datos Personales",
+          "nombre":"Hernán Luis Veyret",
+          "edad":"Edad: 44",
+          "fechaNacimiento":"Fecha de Nacimiento:  08/10/1979",
+          "dni":"DNI: 27688650",
+          "estadoCivil":"Estado Civil: Casado",
+          "hijos":"Hijos: 2",
+          "direccion":"Direccion: America 617, San nicolas de los Arroyos, Bs.As. Argentina - (CP: 2900)",
+          "whatsapp":"54+(11)-34025499",
+          "email":"hernanveyret@hotmail.com",
+          "instagram":"https://www.instagram.com/hernanveyret/",
+          "linkedin":"https://www.linkedin.com/in/hernan-veyret-023252242/",
+          "github":"https://github.com/hernanveyret?tab=repositories"
+        }
+    }
+  ],
+  "ingles": [
+    {
+      "datosPersonales":
+        {
+          "id":1,
+          "titulo":"Personal information",
+          "nombre":"Veyret, Hernán Luis",
+          "edad":"Age: 44",
+          "fechaNacimiento":"Birthdate:  08/10/1979",
+          "dni":"DNI: 27688650",
+          "estadoCivil":"Civil status: Married",
+          "hijos":"Children: 2",
+          "direccion":"Address: America 617, San nicolas de los Arroyos, Bs.As. Argentina - (CP: 2900)",
+          "email":"Email: hernanveyret@hotmail.com",
+          "instagram":"Instagram: https://www.instagram.com/hernanveyret/",
+          "linkedin":"LinkedIn: https://www.linkedin.com/in/hernan-veyret-023252242/",
+          "github":"GitHub: https://github.com/hernanveyret?tab=repositories"
+        }
+    }
+  ]
+}
