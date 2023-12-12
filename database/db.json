@@ -9,6 +9,7 @@
           "edad":"Edad: 44",
           "fechaNacimiento":"Fecha de Nacimiento:  08/10/1979",
           "dni":"DNI: 27688650",
+          "nacionalidad": "Argentino",
           "estadoCivil":"Estado Civil: Casado",
           "hijos":"Hijos: 2",
           "direccion":"Direccion: America 617, San nicolas de los Arroyos, Bs.As. Argentina - (CP: 2900)",
@@ -17,7 +18,23 @@
           "instagram":"https://www.instagram.com/hernanveyret/",
           "linkedin":"https://www.linkedin.com/in/hernan-veyret-023252242/",
           "github":"https://github.com/hernanveyret?tab=repositories"
-        }
+        }    
+    },
+    {
+      "estudios":
+      {
+        "id":2,
+        "titulo":"Estudios Cursados",
+        "secundario":"Escuela Normal Superior Antonio Mentruit (ENSAM). Dirección: Manuel Castro 990, B1828CIB Banfield, Buenos Aires",
+        "primario":"ESCUELA Nº 31 CARLOS GUIDO y SPANO, Dirección: Hipólito Yrigoyen 7672, B1832BQU Banfield, Buenos Aires Teléfono: 011 4242-0635",
+        "tituloCursos":"Cursos",
+        "cursohtmlycss":"Curso de HTML/CSS por Youtube de BloomIt Digital Academy. Duracion: 24hs",
+        "cursojavascript":"Curso de JAVASCRIPT por Youtube de BloomIt Digital Academy. Duracion: 12:39Hs",
+        "cursoreact":"Curso de React por Youtube de Jon Mircha. Duracion: 39:54hs",
+        "cursogit":"Curso de Git / github por Youtube de Jon Mircha. Duracion: 5hs",
+        "cursonotebook":"Reparador de Notebooks. CETAE Perú 263, C1067AAE CABA Tel: 011 5219-1233.",
+        "cursoRv":"Introduccion basica a HTML/CSS/JAVASCRIP POR Revolucion Digital, Munisipalidad de San Nicolas De los Arroyos."
+      }
     }
   ],
   "ingles": [
@@ -28,8 +45,9 @@
           "titulo":"Personal information",
           "nombre":"Veyret, Hernán Luis",
           "edad":"Age: 44",
-          "fechaNacimiento":"Birthdate:  08/10/1979",
+          "fechaNacimiento":"Birthdate:  10/08/1979",
           "dni":"DNI: 27688650",
+          "nacionalidad": "Argentino",
           "estadoCivil":"Civil status: Married",
           "hijos":"Children: 2",
           "direccion":"Address: America 617, San nicolas de los Arroyos, Bs.As. Argentina - (CP: 2900)",
@@ -39,6 +57,22 @@
           "linkedin":"https://www.linkedin.com/in/hernan-veyret-023252242/",
           "github":"https://github.com/hernanveyret?tab=repositories"
         }
+    },
+    {
+      "estudios":
+      {
+        "id":2,
+        "titulo":"Studies Completed",
+        "secundario":"Escuela Normal Superior Antonio Mentruit (ENSAM). Address: Manuel Castro 990, B1828CIB Banfield, Buenos Aires",
+        "primario":"ESCUELA Nº 31 CARLOS GUIDO y SPANO, Address: Hipólito Yrigoyen 7672, B1832BQU Banfield, Buenos Aires Teléfono: 011 4242-0635",
+        "tituloCursos":"Courses",
+        "cursohtmlycss":"HTML/CSS by BloomIt Digital Academy Youtube. Duration: 24 hours",
+        "cursojavascript":"JAVASCRIPT by BloomIt Digital Academy Youtube. Duration: 12:39Hs",
+        "cursoreact":"React on YouTube by Jon Mircha. Duration: 39:54 hours",
+        "cursogit":"Git/github by Jon Mircha's Youtube. Duration: 5 hours",
+        "cursonotebook":"Notebook Repairer. Address: CETAE Perú 263, C1067AAE CABA Tel: 011 5219-1233.",
+        "cursoRv":"Basic introduction to HTML/CSS/JAVASCRIP BY Revolucion Digital, Municipality of San Nicolas De los Arroyos."
+      }
     }
   ]
 }

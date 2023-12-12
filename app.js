@@ -1,8 +1,9 @@
-let urlGit = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
-let url = "http://localhost:5000/castellano"
+let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
+//let url = "./database/db.json"
+//let url = "http://localhost:5000/castellano"
 
 const getData = (section) => {
-  fetch(urlGit)
+  fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(data[section])    
@@ -20,6 +21,7 @@ const idioma = (e) => {
 }
  
 const inicio = (db) => {
+  // Datos Personales
   let $titleDp = document.getElementById("tituloDp");
   let $nombre = document.getElementById("name");
   let $edad = document.getElementById("edad");
@@ -44,6 +46,31 @@ const inicio = (db) => {
   $direccion.textContent = db[0].datosPersonales.direccion;
   $telefono.textContent = db[0].datosPersonales.whatsapp;
   $email.textContent = db[0].datosPersonales.email;
-
   $instagram.innerHTML = `<a href="${db[0].datosPersonales.instagram}" target="_blank"><img src="./img/insta.png" alt="Icono Instagram"/></a><a href="${db[0].datosPersonales.linkedin}" target="_blank"><img src="./img/in.png" alt="Icono Linkedin"/></a><a href="${db[0].datosPersonales.github}" target="_blank"><img src="./img/gitHub.png" alt="Icono GitHub"/></a>`
+
+  // Estudios Cursados
+  let $titleEst = document.getElementById("tituloesT");
+  let $secundaro = document.getElementById("secundario");
+  let $primario = document.getElementById("primario");
+
+  $titleEst.textContent = db[1].estudios.titulo
+  $secundaro.textContent = db[1].estudios.secundario
+  $primario.textContent = db[1].estudios.primario
+
+  // Cursos
+  let $titleCurso = document.getElementById("tituloCursos");
+  let $htmlcss = document.getElementById("html-css");
+  let $javascript = document.getElementById("javascript");
+  let $react = document.getElementById("react");
+  let $github = document.getElementById("github");
+  let $rv = document.getElementById("rv");
+  let $reparacion = document.getElementById("reparacion");
+
+  $titleCurso.textContent = db[1].estudios.tituloCursos
+  $htmlcss.textContent = db[1].estudios.cursohtmlycss
+  $javascript.textContent = db[1].estudios.cursojavascript
+  $react.textContent = db[1].estudios.cursoreact
+  $github.textContent = db[1].estudios.cursogit
+  $rv.textContent = db[1].estudios.cursoRv
+  $reparacion.textContent = db[1].estudios.cursonotebook
 }

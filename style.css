@@ -51,7 +51,7 @@ header {
 }
 main {
   max-width: 100%;
-  height: 300px;
+  min-height: 100vh;
   background-color: #002E52;
   color: white;
   display: flex;
@@ -95,7 +95,25 @@ span img {
 a {
   margin-right: -10px;
 }
-
+section {
+  border: 1px solid white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin-left: 20px;;
+}
+li {
+  margin-top: 10px;
+}
+footer {
+  background-color: rgb(114, 109, 109);
+  width: 100;
+  height: 30px;
+}
 @media screen and (min-width:500px) {
   header {    
     flex-direction: row;
@@ -106,5 +124,12 @@ a {
   }
   .nombre {
     font-size: 4rem;
+  }
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  section {
+    width: 45%;
   }
 }
