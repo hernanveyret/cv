@@ -83,28 +83,52 @@
       "proyectos":[
         {
           "tituloProyecto":"Proyectos",
-          "titulo":"",
+          "titulo":"ofertApp",
           "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/webDeOfertas",
           "descripcion":""
         },
         {
-          "titulo":"",
+          "titulo":"Lista de Tareas - React",
           "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/toDoListReact",
           "descripcion":""
         },
         {
-          "titulo":"",
+          "titulo":"Lista de Tareas - Js",
           "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/toDoList",
           "descripcion":""
         },
         {
-          "titulo":"",
+          "titulo":"Calzados Abi",
           "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/calzadosabireact",
           "descripcion":""
         },
         {
-          "titulo":"",
+          "titulo":"App del Tiempo",
           "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/AppDelTiempo",
+          "descripcion":""
+        },
+        {
+          "titulo":"El ahorcado",
+          "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/el-ahorcado",
+          "descripcion":""
+        },
+        {
+          "titulo":"TA-TE-TI",
+          "imagen":"",
+          "url":"",
+          "urlGit":"https://github.com/hernanveyret/TATETI-V3",
           "descripcion":""
         }
       ]
