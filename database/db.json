@@ -33,8 +33,52 @@
         "cursoreact":"Curso de React por Youtube de Jon Mircha. Duracion: 39:54hs",
         "cursogit":"Curso de Git / github por Youtube de Jon Mircha. Duracion: 5hs",
         "cursonotebook":"Reparador de Notebooks. CETAE Perú 263, C1067AAE CABA Tel: 011 5219-1233.",
-        "cursoRv":"Introduccion basica a HTML/CSS/JAVASCRIP POR Revolucion Digital, Munisipalidad de San Nicolas De los Arroyos."
+        "cursoRv":"Introduccion basica a HTML/CSS/JAVASCRIPT por Revolucion Digital, Munisipalidad de San Nicolas De los Arroyos."
       }
+    },
+    {
+      "idiomas":
+      {
+        "id":3,
+        "titulo":"Idiomas",
+        "idiomaUno":"Portuges abanzado"
+      }
+    },
+    {
+      "experienciaLaboral":[
+       {
+          "titulo":"Castillos Inflables",
+          "descripcion":"Alquiler de castillos inflables para eventos.",
+          "fecha":"Actualidad."
+       },
+       {
+        "titulo":"Calzados Lecika",
+        "descripcion":"Puesto: Encargado, Dirección: Hipólito Irigoyen 2600 Capital federal, CP1090.eléfono: 011 49525177/2344 -Empleador  MALDJIAN VARTKES CUIT 23-18708324-9.",
+        "fecha":"12/2007 - 07/2020"
+      },
+      {
+        "titulo":"Cyber Tangara",
+        "descripcion":"Puesto: Dueño, administración,  Atención al público,mantenimiento de computadoras. Cabo Frio - Rio de Janeiro - Brasil",
+        "fecha":"12/2003 - 11/2007"
+      },
+      {
+        "titulo":"Hotel Pousada Casa Do Catavento",
+        "descripcion":"Barman, atencion al publico en recepcion. Dirección: R. G II, s/n - Lote 3 - Condominio Atlântico Praia de Fe-rradura, Búzios - RJ, 28950-000, Brasil -Teléfono: +55 222623-1141.",
+        "fecha":"06/2003- 11/2003"
+      },
+      {
+        "titulo":"HG Decoraciones",
+        "descripcion":"Puesto: Colocacion de cortinas decorativas, ayudante de alfombrado y tapicería. Dirección: Anatole France 1900, Lanús Oeste, Buenos Aires Telefono:011 4241-9320 - Empleador GONZALEZ NOE JORGE ADRIAN - CUIT 30-69420764-9) ",
+        "fecha":"08/1998 - 05/2003"
+      },
+      {
+        "titulo":"OASIS - Tennis Club",
+        "descripcion":"Encargado de mantenimiento de instalaciones, Canchas de tennis, paddle, papi futbol y mantenimiento y limpieza gral. Dirección: Alberto arroque 756, B1828HPO Banfield, Buenos Aires. Teléfono: 011 4288-2250 - Empleador CASANOVAS GUILLERMO LEONARDO CUIT 20-20617103-1",
+        "fecha":"05/1996 - 07/1998"
+      }
+      ]
+      
+
     }
   ],
   "ingles": [
@@ -71,8 +115,50 @@
         "cursoreact":"React on YouTube by Jon Mircha. Duration: 39:54 hours",
         "cursogit":"Git/github by Jon Mircha's Youtube. Duration: 5 hours",
         "cursonotebook":"Notebook Repairer. Address: CETAE Perú 263, C1067AAE CABA Tel: 011 5219-1233.",
-        "cursoRv":"Basic introduction to HTML/CSS/JAVASCRIP BY Revolucion Digital, Municipality of San Nicolas De los Arroyos."
+        "cursoRv":"Basic introduction to HTML/CSS/JAVASCRIPT BY Revolucion Digital, Municipality of San Nicolas De los Arroyos."
       }
+    },
+    {
+      "idiomas":
+      {
+        "id":3,
+        "titulo":"Idiomas",
+        "idiomaUno":"Portuges abanzado"
+      }
+    },
+    {
+      "experienciaLaboral":[
+       {
+          "titulo":"Castillos Inflables",
+          "descripcion":"Alquiler de castillos inflables para eventos.",
+          "fecha":"Actualidad."
+       },
+       {
+        "titulo":"Calzados Lecika",
+        "descripcion":"Puesto: Encargado, Dirección: Hipólito Irigoyen 2600 Capital federal, CP1090.eléfono: 011 49525177/2344 -Empleador  MALDJIAN VARTKES CUIT 23-18708324-9.",
+        "fecha":"12/2007 - 07/2020"
+      },
+      {
+        "titulo":"Cyber Tangara",
+        "descripcion":"Puesto: Dueño, administración,  Atención al público,mantenimiento de computadoras. Cabo Frio - Rio de Janeiro - Brasil",
+        "fecha":"12/2003 - 11/2007"
+      },
+      {
+        "titulo":"Hotel Pousada Casa Do Catavento",
+        "descripcion":"Barman, atencion al publico en recepcion. Dirección: R. G II, s/n - Lote 3 - Condominio Atlântico Praia de Fe-rradura, Búzios - RJ, 28950-000, Brasil -Teléfono: +55 222623-1141.",
+        "fecha":"06/2003- 11/2003"
+      },
+      {
+        "titulo":"HG Decoraciones",
+        "descripcion":"Puesto: Colocacion de cortinas decorativas, ayudante de alfombrado y tapicería. Dirección: Anatole France 1900, Lanús Oeste, Buenos Aires Telefono:011 4241-9320 - Empleador GONZALEZ NOE JORGE ADRIAN - CUIT 30-69420764-9) ",
+        "fecha":"08/1998 - 05/2003"
+      },
+      {
+        "titulo":"OASIS - Tennis Club",
+        "descripcion":"Encargado de mantenimiento de instalaciones, Canchas de tennis, paddle, papi futbol y mantenimiento y limpieza gral. Dirección: Alberto arroque 756, B1828HPO Banfield, Buenos Aires. Teléfono: 011 4288-2250 - Empleador CASANOVAS GUILLERMO LEONARDO CUIT 20-20617103-1",
+        "fecha":"05/1996 - 07/1998"
+      }
+      ]
     }
   ]
 }

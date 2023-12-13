@@ -1,12 +1,12 @@
-let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
-//let url = "./database/db.json"
+//let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
+let url = "./database/db.json"
 //let url = "http://localhost:5000/castellano"
 
 const getData = (section) => {
   fetch(url)
   .then(res => res.json())
   .then(data => {
-    console.log(data[section])    
+    console.log(data[section])
     inicio(data[section])
   })
 }
@@ -73,4 +73,29 @@ const inicio = (db) => {
   $github.textContent = db[1].estudios.cursogit
   $rv.textContent = db[1].estudios.cursoRv
   $reparacion.textContent = db[1].estudios.cursonotebook
+
+  //Idioma
+  let $titleIdioma = document.getElementById("tituloIdioma");
+  let $portugues = document.getElementById("idiomaUno");
+
+  $titleIdioma.textContent = db[2].idiomas.titulo
+  $portugues.textContent = db[2].idiomas.idiomaUno
+  
+  //Experiencia Laboral
+  let laboral = document.getElementById("experienciaLaboral");
+  console.log(db[3].experienciaLaboral)
+  let ex = db[3].experienciaLaboral
+  let html = " ";
+  ex.forEach(e => {
+    html += `<section>`
+    html += `<div><h4>${e.titulo}</h4></div>`
+    html += `<div>`
+    html += `<p>Descripcion: ${e.descripcion}</p>`
+    html += `<p>Fecha: ${e.fecha}</p>`
+    html += `</div>`
+    html += `</section>`
+
+    laboral.innerHTML += html
+  })
+    
 }
