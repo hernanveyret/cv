@@ -83,19 +83,22 @@ const inicio = (db) => {
   
   //Experiencia Laboral
   let laboral = document.getElementById("experienciaLaboral");
-  console.log(db[3].experienciaLaboral)
+  let $titutloExpL = document.getElementById("titleExpL");
+  $titutloExpL.innerHTML = db[3].experienciaLaboral[0].tituloSeccion
+  laboral.innerHTML = '';
+  const templateL = document.getElementById("templateL").content
+  const fragmento = document.createDocumentFragment()
+  
   let ex = db[3].experienciaLaboral
-  let html = " ";
+  
   ex.forEach(e => {
-    html += `<section>`
-    html += `<div><h4>${e.titulo}</h4></div>`
-    html += `<div>`
-    html += `<p>Descripcion: ${e.descripcion}</p>`
-    html += `<p>Fecha: ${e.fecha}</p>`
-    html += `</div>`
-    html += `</section>`
+    templateL.querySelector("h4").textContent = e.titulo;
+    templateL.querySelector(".descripcion").textContent = e.descripcion;
+    templateL.querySelector(".fecha").textContent = e.fecha;
 
-    laboral.innerHTML += html
+    let $clone = document.importNode(templateL,true)
+    fragmento.appendChild($clone)    
   })
-    
+    laboral.appendChild(fragmento)
+ 
 }

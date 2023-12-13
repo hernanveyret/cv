@@ -62,12 +62,18 @@ main {
 h3 {
   padding: 10px 0 0 0;
 }
+h4 {
+  padding: 5px 0 10px 0;
+}
 .dtPersonales {
   width: 90%;
   height: auto;
   border-radius: 0.75rem;
   background: linear-gradient(rgb(0, 102, 255),#014E82);
   margin-top: 5px;
+}
+.cards {
+  padding: 10px;
 }
 .titulo {
   text-align: center;
@@ -101,9 +107,11 @@ a {
 .secciones {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid grey;
   width: 100%;
   padding-bottom: 10px;
+}
+section {
+  border-bottom: 1px solid grey;
 }
 article {
   width: 100%;
@@ -111,6 +119,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .articulo {
   display: flex;
@@ -130,6 +139,7 @@ footer {
   width: 100;
   height: 30px;
 }
+
 @media screen and (min-width:500px) {
   header {    
     flex-direction: row;
@@ -156,4 +166,15 @@ footer {
   .secciones {
     flex-direction: row;
   }
+  section {
+    width: 100%;
+  }
+  .contendorExLab {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  
 }

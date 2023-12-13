@@ -47,6 +47,7 @@
     {
       "experienciaLaboral":[
        {
+          "tituloSeccion": "Experiencia Labora",
           "titulo":"Castillos Inflables",
           "descripcion":"Alquiler de castillos inflables para eventos.",
           "fecha":"Actualidad."
@@ -77,8 +78,36 @@
         "fecha":"05/1996 - 07/1998"
       }
       ]
-      
-
+    },
+    {
+      "proyectos":[
+        {
+          "tituloProyecto":"Proyectos",
+          "titulo":"",
+          "imagen":"",
+          "descripcion":""
+        },
+        {
+          "titulo":"",
+          "imagen":"",
+          "descripcion":""
+        },
+        {
+          "titulo":"",
+          "imagen":"",
+          "descripcion":""
+        },
+        {
+          "titulo":"",
+          "imagen":"",
+          "descripcion":""
+        },
+        {
+          "titulo":"",
+          "imagen":"",
+          "descripcion":""
+        }
+      ]
     }
   ],
   "ingles": [
@@ -129,18 +158,19 @@
     {
       "experienciaLaboral":[
        {
-          "titulo":"Castillos Inflables",
-          "descripcion":"Alquiler de castillos inflables para eventos.",
-          "fecha":"Actualidad."
+          "tituloSeccion": "Work experience",
+          "titulo":"Inflatable castles",
+          "descripcion":"Inflatable castle rental for events.",
+          "fecha":"Present."
        },
        {
         "titulo":"Calzados Lecika",
-        "descripcion":"Puesto: Encargado, Dirección: Hipólito Irigoyen 2600 Capital federal, CP1090.eléfono: 011 49525177/2344 -Empleador  MALDJIAN VARTKES CUIT 23-18708324-9.",
+        "descripcion":"Position: Manager, Address: Hipólito Irigoyen 2600 Capital federal, CP1090. Phone: 011 49525177/2344 - Employer MALDJIAN VARTKES CUIT 23-18708324-9.",
         "fecha":"12/2007 - 07/2020"
       },
       {
         "titulo":"Cyber Tangara",
-        "descripcion":"Puesto: Dueño, administración,  Atención al público,mantenimiento de computadoras. Cabo Frio - Rio de Janeiro - Brasil",
+        "descripcion":"Position: Owner, administration, customer service, computer maintenance. Cabo Frio - Rio de Janeiro - Brasil",
         "fecha":"12/2003 - 11/2007"
       },
       {
