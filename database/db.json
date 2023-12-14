@@ -84,52 +84,52 @@
         {
           "tituloProyecto":"Proyectos",
           "titulo":"ofertApp",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img01.jpg",
+          "url":"https://web-de-ofertas.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/webDeOfertas",
-          "descripcion":""
+          "descripcion":"Carrito de compras en React. Guarda favoritos y el pedido se puede realizar por whatsaap."
         },
         {
           "titulo":"Lista de Tareas - React",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img02.jpg",
+          "url":"https://to-do-list-react-rose-chi.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/toDoListReact",
-          "descripcion":""
+          "descripcion":"Simple lista de tareas en React, tacha lo que ya se realizo, edita una tarea, elima de a una, varias o todas."
         },
         {
           "titulo":"Lista de Tareas - Js",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img03.jpg",
+          "url":"https://to-do-list-psi-fawn.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/toDoList",
-          "descripcion":""
+          "descripcion":"Simple lista de tareas en Javascript, tacha lo que ya se realizo, edita una tarea, elima de a una, varias o todas."
         },
         {
           "titulo":"Calzados Abi",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img04.jpg",
+          "url":"https://calzadosabi.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/calzadosabireact",
-          "descripcion":""
+          "descripcion":"Pagina de calzados con carrito de compras. En construccion."
         },
         {
           "titulo":"App del Tiempo",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img05.jpg",
+          "url":"https://app-del-tiempo.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/AppDelTiempo",
-          "descripcion":""
+          "descripcion":"Pagina del pronostico del tiempo en tiempo real, con buscador por localidades."
         },
         {
           "titulo":"El ahorcado",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img06.jpg",
+          "url":"https://el-ahorcado-chi.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/el-ahorcado",
-          "descripcion":""
+          "descripcion":"Juego del Ahorcado."
         },
         {
           "titulo":"TA-TE-TI",
-          "imagen":"",
-          "url":"",
+          "imagen":"./img/imgAps/img07.jpg",
+          "url":"https://tateti-v3.vercel.app/",
           "urlGit":"https://github.com/hernanveyret/TATETI-V3",
-          "descripcion":""
+          "descripcion":"Juego del tateti para jugar de a dos personas."
         }
       ]
     }
@@ -175,7 +175,7 @@
       "idiomas":
       {
         "id":3,
-        "titulo":"Idiomas",
+        "titulo":"Languages",
         "idiomaUno":"Portuges abanzado"
       }
     },
@@ -212,6 +212,60 @@
         "descripcion":"Encargado de mantenimiento de instalaciones, Canchas de tennis, paddle, papi futbol y mantenimiento y limpieza gral. Dirección: Alberto arroque 756, B1828HPO Banfield, Buenos Aires. Teléfono: 011 4288-2250 - Empleador CASANOVAS GUILLERMO LEONARDO CUIT 20-20617103-1",
         "fecha":"05/1996 - 07/1998"
       }
+      ]
+    },
+    {
+      "proyectos":[
+        {
+          "tituloProyecto":"Projects",
+          "titulo":"ofertApp",
+          "imagen":"./img/imgAps/img01.jpg",
+          "url":"https://web-de-ofertas.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/webDeOfertas",
+          "descripcion":"Shopping cart in React. Save favorites and the order can be placed by WhatsApp."
+        },
+        {
+          "titulo":"Lista de Tareas - React",
+          "imagen":"./img/imgAps/img02.jpg",
+          "url":"https://to-do-list-react-rose-chi.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/toDoListReact",
+          "descripcion":"Simple list of tasks in React, cross out what has already been done, edit a task, delete one, several or all."
+        },
+        {
+          "titulo":"Lista de Tareas - Js",
+          "imagen":"./img/imgAps/img03.jpg",
+          "url":"https://to-do-list-psi-fawn.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/toDoList",
+          "descripcion":"Simple list of tasks in Javascript, cross out what has already been done, edit a task, delete one, several or all."
+        },
+        {
+          "titulo":"Calzados Abi",
+          "imagen":"./img/imgAps/img04.jpg",
+          "url":"https://calzadosabi.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/calzadosabireact",
+          "descripcion":"Footwear page with shopping cart. In construction."
+        },
+        {
+          "titulo":"App del Tiempo",
+          "imagen":"./img/imgAps/img05.jpg",
+          "url":"https://app-del-tiempo.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/AppDelTiempo",
+          "descripcion":"Real-time weather forecast page, with search engine by location."
+        },
+        {
+          "titulo":"El ahorcado",
+          "imagen":"./img/imgAps/img06.jpg",
+          "url":"https://el-ahorcado-chi.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/el-ahorcado",
+          "descripcion":"Hangman game."
+        },
+        {
+          "titulo":"TA-TE-TI",
+          "imagen":"./img/imgAps/img07.jpg",
+          "url":"https://tateti-v3.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/TATETI-V3",
+          "descripcion":"Tateti game to play with two people."
+        }
       ]
     }
   ]

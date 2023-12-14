@@ -1,5 +1,5 @@
-//let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
-let url = "./database/db.json"
+let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
+//let url = "./database/db.json"
 //let url = "http://localhost:5000/castellano"
 
 const getData = (section) => {
@@ -101,4 +101,28 @@ const inicio = (db) => {
   })
     laboral.appendChild(fragmento)
  
+    // Proyectos
+    let pro = db[4].proyectos
+    let tituloP = document.getElementById("titleProy");
+    tituloP.innerHTML = db[4].proyectos[0].tituloProyecto;    
+    let $proyectos =  document.getElementById("proyectos");
+      $proyectos.innerHTML = "";
+      let html = "";
+
+      pro.forEach(e => {
+        html += `<article>`
+        html += `<div class="dtPersonales cards cardsP">`
+        html += `<div class="imagenP">`
+        html += `<img src="${e.imagen}" alt="Pagina web" />`
+        html += `</div>`
+        html += `<div class="descipcionP">`
+        html +=  `<h4>${e.titulo}</h4>`
+        html +=  `<p>${e.descripcion}</p>`
+        html +=  `<span><a href="${e.url}" target="_blank"><img src="./img/internet.png" alt="Icono GitHub" class="btn-ico" /</a><a href="${e.urlGit}" target="_blank"><img src="./img/gitHub.png" alt="Icono GitHub" class="btn-ico" /></a></span>`
+        html += `</div>`
+        html += `</div>`
+        html += `</article>`
+  })
+  $proyectos.innerHTML += html
+   
 }

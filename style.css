@@ -59,14 +59,18 @@ main {
   justify-content: flex-start;
   align-items: center;
 }
+
 h3 {
   padding: 10px 0 0 0;
+  color: orange;
+  text-shadow: 2px 2px 9px black;
 }
 h4 {
   padding: 5px 0 10px 0;
+  color: beige;
 }
 .dtPersonales {
-  width: 90%;
+  width: 95%;
   height: auto;
   border-radius: 0.75rem;
   background: linear-gradient(rgb(0, 102, 255),#014E82);
@@ -112,6 +116,8 @@ a {
 }
 section {
   border-bottom: 1px solid grey;
+  border-radius: 0 0 30px 30px;
+  padding-bottom: 5px;
 }
 article {
   width: 100%;
@@ -119,7 +125,6 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .articulo {
   display: flex;
@@ -140,6 +145,28 @@ footer {
   height: 30px;
 }
 
+.imagenP {
+  width: 40%;
+}
+.imagenP img {
+  width: 100%;
+  padding: 10px;
+}
+.cardsP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descipcionP {
+  width: 60%;;
+}
+.btn-ico {
+  width: 60%;
+  padding: 10px 0;
+}
+.btn-ico:hover {
+  filter: drop-shadow(3px 3px 5px white);
+}
 @media screen and (min-width:500px) {
   header {    
     flex-direction: row;
