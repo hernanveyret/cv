@@ -1,14 +1,16 @@
-let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
-//let url = "./database/db.json"
+///let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
+let url = "./database/db.json"
 //let url = "http://localhost:5000/castellano"
 
 const getData = (section) => {
+  
   fetch(url)
   .then(res => res.json())
   .then(data => {
     console.log(data[section])
     inicio(data[section])
   })
+
 }
 document.addEventListener("DOMContentLoaded",getData("castellano"));
 
@@ -125,4 +127,8 @@ const inicio = (db) => {
   })
   $proyectos.innerHTML += html
    
+  //Prologo Final
+  let textoFinal = document.getElementById("prologoFinal");
+  textoFinal.innerHTML = "";
+  textoFinal.innerHTML = db[5].prologo
 }

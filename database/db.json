@@ -132,6 +132,9 @@
           "descripcion":"Juego del tateti para jugar de a dos personas."
         }
       ]
+    },
+    {
+      "prologo":"Desde muy chico me gusto la programación, arreglar artefactos eléctricos y todo el mundo de la tecnología, a mis 13 años, en un libro de biología del secundario, en las ultimas hojas encontré algo que parecía un juego de preguntas y respuestas, con palabras raras, un día tratando de cambiar los nombres de los personajes en un jueguito de MS-DOS que había comprado con un amigo, encontré un programa “QBasic” investigando vi las mismas palabras raras que había visto en mi libro de biología, las copie y de alguna forma hice andar ese jueguito de preguntas y respuestas, de ahí en más me pasaba noches intentando crear diferentes tipos de programas o juegos, sin internet y sin YouTube.  La vida me llevo para otro rumbo, otros tipos de trabajos los cuales trate siempre de realizarlos lo mejor posible, siempre con dedicación y responsabilidad, siempre aprendiendo. Hoy con las nuevas tecnologías y facilidades, vuelvo a intentar esa pasión por la programación, se que me falta mucho, pero también se que esto es algo que no termina, que siempre evoluciona y ahí voy a estar aprendiendo y dando todo de mí."
     }
   ],
   "ingles": [
@@ -199,17 +202,17 @@
       },
       {
         "titulo":"Hotel Pousada Casa Do Catavento",
-        "descripcion":"Barman, atencion al publico en recepcion. Dirección: R. G II, s/n - Lote 3 - Condominio Atlântico Praia de Fe-rradura, Búzios - RJ, 28950-000, Brasil -Teléfono: +55 222623-1141.",
+        "descripcion":"Bartender, customer service at reception. Address: R. G II, s/n - Lote 3 - Condominio Atlântico Praia de Fe-rradura, Búzios - RJ, 28950-000, Brasil -Phone: +55 222623-1141.",
         "fecha":"06/2003- 11/2003"
       },
       {
         "titulo":"HG Decoraciones",
-        "descripcion":"Puesto: Colocacion de cortinas decorativas, ayudante de alfombrado y tapicería. Dirección: Anatole France 1900, Lanús Oeste, Buenos Aires Telefono:011 4241-9320 - Empleador GONZALEZ NOE JORGE ADRIAN - CUIT 30-69420764-9) ",
+        "descripcion":"Position: Placement of decorative curtains, carpeting and upholstery assistant. Address: Anatole France 1900, Lanús Oeste, Buenos Aires Telefono:011 4241-9320 - Employer GONZALEZ NOE JORGE ADRIAN - CUIT 30-69420764-9) ",
         "fecha":"08/1998 - 05/2003"
       },
       {
         "titulo":"OASIS - Tennis Club",
-        "descripcion":"Encargado de mantenimiento de instalaciones, Canchas de tennis, paddle, papi futbol y mantenimiento y limpieza gral. Dirección: Alberto arroque 756, B1828HPO Banfield, Buenos Aires. Teléfono: 011 4288-2250 - Empleador CASANOVAS GUILLERMO LEONARDO CUIT 20-20617103-1",
+        "descripcion":"Facility maintenance manager, tennis courts, paddle, papi futbol and maintenance and general cleaning. Address: Alberto arroque 756, B1828HPO Banfield, Buenos Aires. Phone: 011 4288-2250 - Empleador CASANOVAS GUILLERMO LEONARDO CUIT 20-20617103-1",
         "fecha":"05/1996 - 07/1998"
       }
       ]
@@ -267,6 +270,9 @@
           "descripcion":"Tateti game to play with two people."
         }
       ]
+    },
+    {
+      "prologo":"From a very young age I liked programming, fixing electrical devices and the whole world of technology. At 13 years old, in a high school biology book, in the last pages I found something that looked like a question and answer game, with strange words. , one day trying to change the names of the characters in a little MS-DOS game that I had bought with a friend, I found a 'QBasic' program, researching it, I saw the same strange words that I had seen in my biology book, I copied them and Somehow I got that little game of questions and answers going, from then on I spent nights trying to create different types of programs or games, without internet and without YouTube. Life took me in another direction, other types of work which I always tried to do as best as possible, always with dedication and responsibility, always learning. Today with new technologies and facilities, I am trying again that passion for programming, I know that I am missing a lot, but I also know that this is something that does not end, that always evolves and there I will be learning and giving my all."
     }
   ]
 }

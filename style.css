@@ -15,6 +15,7 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
+
 button {
   width: 20px;
   margin: 0 5px 0 0;
@@ -59,7 +60,14 @@ main {
   justify-content: flex-start;
   align-items: center;
 }
-
+.articulo-final {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 5px;
+}
 h3 {
   padding: 10px 0 0 0;
   color: orange;
@@ -76,6 +84,7 @@ h4 {
   background: linear-gradient(rgb(0, 102, 255),#014E82);
   margin-top: 5px;
 }
+
 .cards {
   padding: 10px;
 }
@@ -142,7 +151,11 @@ li {
 footer {
   background-color: rgb(114, 109, 109);
   width: 100;
-  height: 30px;
+  height: 40px;
+  color: white;
+  padding: 10px;
+  font-size: .8rem;
+  
 }
 
 .imagenP {
@@ -167,7 +180,7 @@ footer {
 .btn-ico:hover {
   filter: drop-shadow(3px 3px 5px white);
 }
-@media screen and (min-width:500px) {
+@media screen and (min-width:600px) {
   header {    
     flex-direction: row;
   }
@@ -178,14 +191,14 @@ footer {
   .nombre {
     font-size: 4rem;
   }
-  main {
-    
+  main {    
     align-items: flex-start;
     vertical-align: middle;
   }
   article {
     width: 45%;
     align-items: flex-start;
+    
   }
   .articulo {
     justify-content: space-between;
