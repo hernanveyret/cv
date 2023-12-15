@@ -1,6 +1,5 @@
 let url = "https://raw.githubusercontent.com/hernanveyret/cv/main/database/db.json"
-//let url = "./database/db.json"
-//let url = "http://localhost:5000/castellano"
+
 
 const getData = (section) => {
   
