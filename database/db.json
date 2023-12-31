@@ -223,8 +223,8 @@
           "tituloProyecto":"Projects",
           "titulo":"ofertApp",
           "imagen":"./img/imgAps/img01.jpg",
-          "url":"https://web-de-ofertas.vercel.app/",
-          "urlGit":"https://github.com/hernanveyret/webDeOfertas",
+          "url":"https://ofert-app.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/ofertApp",
           "descripcion":"Shopping cart in React. Save favorites and the order can be placed by WhatsApp."
         },
         {
