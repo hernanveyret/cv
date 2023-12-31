@@ -85,8 +85,8 @@
           "tituloProyecto":"Proyectos",
           "titulo":"ofertApp",
           "imagen":"./img/imgAps/img01.jpg",
-          "url":"https://web-de-ofertas.vercel.app/",
-          "urlGit":"https://github.com/hernanveyret/webDeOfertas",
+          "url":"https://ofert-app.vercel.app/",
+          "urlGit":"https://github.com/hernanveyret/ofertApp",
           "descripcion":"Carrito de compras en React. Guarda favoritos y el pedido se puede realizar por whatsaap."
         },
         {
